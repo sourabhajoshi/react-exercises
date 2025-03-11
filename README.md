@@ -1,3 +1,42 @@
+Prerequisites :-
+    Download Node.js and NPM
+
+check wheather installed or not using commands
+    node -v
+    npm -v
+
+Initialize a New React Project:
+    To start, open your terminal and write the following command to create an new React app using Create React App.
+
+    npx create-react-app my-react-app
+    cd my-react-app
+
+Exploring the Project Structure
+    my-react-app/
+        |- node_modules/
+        |- public/
+        |  |- index.html
+        |  |- ...
+        |
+        |- src/
+        |  |- App.css
+        |  |- App.js
+        |  |- index.css
+        |  |- index.js
+        |  |- logo.svg
+        |
+        |- package.json
+        |- package-lock.json
+        |- README.md
+        |- .gitignore
+        |- ...
+        
+    - The node_modules folder contains all the project's dependencies installed by npm.
+    - The public folder holds the static assets, including the index.html file, which is the entry point of our app.
+    - The src folder is where we'll do most of our work. It contains the main application files, including the App.js component, which is the root component of our app.
+
+
+
 npm : node package module : we can install either local or global
 
 //////////////////////////////
